@@ -1,0 +1,43 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 2 versions
+*/
+
+@media only screen and (max-width:992px) {
+    .main-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 250px;
+        transition: 0.3s;
+        z-index: 99999;
+    }
+    .main-menu li {
+        margin-bottom: 20px;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width: 576px) {
+    .contact-us {
+        display: block !important;
+    }
+    .header-description h1 {
+        font-size: 20px;
+    }
+    .dec-swet h2 {
+        font-size: 20px;
+    }
+    .dec-hot h2 {
+        font-size: 20px;
+    }
+}

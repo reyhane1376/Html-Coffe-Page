@@ -1,0 +1,287 @@
+/*global style*/
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+body {
+    font-family: 'vazir';
+    direction: rtl;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.input {
+    font-family: 'vazir';
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*header style*/
+
+.header {
+    background-image: url(../images/bakcground-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 25px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.main-menu__item {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.main-menu__item a {
+    font-size: 14px;
+}
+
+.logo-img {
+    width: 45px;
+}
+
+.header-description {
+    color: #fff;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+.header-description h1 {
+    font-size: 35px;
+}
+
+.header-description p {
+    font-size: 16px;
+}
+
+
+/*main style*/
+
+
+/*section one style*/
+
+.all-title {
+    margin-bottom: 25px;
+}
+
+.all-title h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.all-title p {
+    max-width: 450px;
+    min-height: 100px;
+    margin: auto;
+    line-height: 30px;
+}
+
+.s-one-img img {
+    width: 100%;
+}
+
+
+/*section two style*/
+
+.section-two {
+    width: 100%;
+    height: 400px;
+    padding: 100px 0;
+    background-image: url(../images/backtwo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.dec-swet {
+    color: #fff;
+    text-align: center;
+}
+
+.dec-swet h2 {
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.dec-swet p {
+    font-size: 15px;
+    margin: auto;
+    max-width: 430px;
+    min-height: 100px;
+}
+
+
+/*section tree style*/
+
+.all-title a {
+    color: rgb(100, 52, 13);
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.all-title a:hover {
+    color: rgb(187, 147, 14);
+}
+
+.img-row img {
+    margin-bottom: 15px;
+    padding: 0 7.5px !important;
+}
+
+
+/*section four style*/
+
+.section-four {
+    width: 100%;
+    height: 300px;
+    padding: 100px 0;
+    background-image: url(../images/hot.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.dec-hot {
+    color: #fff;
+    text-align: center;
+}
+
+.dec-hot h2 {
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+.dec-hot p {
+    font-size: 25px;
+    margin: auto;
+    min-height: 100px;
+}
+
+.img-row2 img {
+    margin-bottom: 10px;
+}
+
+
+/*footer style*/
+
+.footer {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.about-footer h2 {
+    font-size: 20px;
+}
+
+.about-footer p {
+    max-width: 470px;
+    margin: auto;
+    line-height: 36px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.contact-us {
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.news input {
+    padding: 10px;
+}
+
+.news h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.social h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.social-item {
+    list-style: none;
+    padding: 0;
+}
+
+.social-item li a i {
+    font-size: 20px;
+}
+
+.copy-right {
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.copy-right h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.copy-right p {
+    font-size: 10px;
+    margin-bottom: 25px;
+}
